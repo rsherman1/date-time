@@ -7,8 +7,6 @@
 /* Layout  */
 main {
   display: grid;
-  background-color:black;
-  color: white;
   grid-template-columns: repeat(2, 1fr);
   /* verrtical center   */
   align-content: center;
@@ -24,11 +22,15 @@ main time {
 #thedate {
 font-size: 36px;
 font-family: Garamond, serif;
+background-color: black;
+color: white;
 }
 
 #thetime {
 font-size: 36px;
 font-family: Garamond, serif;
+background-color: black;
+color: white;
 }
 
 .time{
