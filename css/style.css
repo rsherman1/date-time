@@ -7,6 +7,8 @@
 /* Layout  */
 main {
   display: grid;
+  background-color:black;
+  color: white;
   grid-template-columns: repeat(2, 1fr);
   /* verrtical center   */
   align-content: center;
