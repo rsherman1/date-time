@@ -53,3 +53,18 @@ padding: 50px;
   font-size: 60px;
 }
 
+.hours {
+color: red;
+}
+
+.minutes {
+color: red;
+}
+
+.seconds {
+color: red;
+}
+
+.dayOfWeek {
+color: red;
+}
