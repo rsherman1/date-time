@@ -5,8 +5,8 @@
 @media screen (min-width: 481px) {
 main {
   display: grid;
-  grid-template-areas: "thedate thetime";
-  /* verrtical center   */
+  grid-template-areas: "#thedate #thetime";
+ 
   align-content: center;
   /*  extend to viewport height  */
   height: 100vh;
@@ -16,8 +16,8 @@ main {
 @media screen (max-width: 480px) {
   main {
     display: grid;
-    grid-template-areas: "thedate"
-    "thetime");
+    grid-template-areas: "#thedate"
+    "#thetime");
     /* stacked vertically */
     align-content: center;
     height: 100vh;
