@@ -8,7 +8,7 @@
 @media screen (min-width: 481px) {
 main {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "thedate thetime";
   /* verrtical center   */
   align-content: center;
   /*  extend to viewport height  */
@@ -19,7 +19,8 @@ main {
 @media screen (max-width: 480px) {
   main {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "thedate"
+    "thetime");
     /* stacked vertically */
     align-content: center;
     height: 100vh;
