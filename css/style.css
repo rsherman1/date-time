@@ -20,6 +20,7 @@ main {
   main {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
+    /* stacked vertically */
     align-content: center;
     height: 100vh;
   }
@@ -31,7 +32,7 @@ main time {
 }
 
 #thedate {
-font-size: 36px;
+font-size: 48px;
 font-family: Garamond, serif;
 background-color: black;
 color: white;
