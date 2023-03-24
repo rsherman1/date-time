@@ -29,6 +29,10 @@ main time {
   text-align: center;
 }
 
+#icon {
+  background-color: black;
+}
+
 #thedate {
 font-size: 48px;
 font-family: Zodiak, serif;
