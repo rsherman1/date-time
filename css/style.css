@@ -34,6 +34,10 @@ main time {
   padding: 20px;
 }
 
+#svgicon {
+  padding: 50px;
+}
+
 #thedate {
 font-size: 48px;
 font-family: Zodiak, serif;
